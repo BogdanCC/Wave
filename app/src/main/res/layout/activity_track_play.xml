@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackPlayActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/null_size"
+        android:layout_weight="2"
+        android:src="@drawable/wave_icon"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/null_size"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="@dimen/medium_text_size"
+        android:textAllCaps="true"
+        android:textColor="@color/colorTextPrimary"
+        android:gravity="center"
+        android:id="@+id/track_playing_name"
+        android:padding="@dimen/medium_padding"
+        />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/null_size"
+        android:layout_weight="1"
+        android:id="@+id/video_view"
+        android:background="@drawable/video_background"
+        />
+</LinearLayout>

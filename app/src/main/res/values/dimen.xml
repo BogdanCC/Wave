@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="null_size">0dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+
+    <!-- GridView dimens -->
+    <dimen name="gridview_spacing">10dp</dimen>
+    <dimen name="gridview_column_width">120dp</dimen>
+
+    <!-- Playlist CardView dimens -->
+    <dimen name="cardview_height">200dp</dimen>
+    <dimen name="cardview_elevation">8dp</dimen>
+
+    <!-- Text dimens -->
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="big_text_size">24sp</dimen>
+    <dimen name="huge_text_size">32sp</dimen>
+
+    <!-- Icon dimens -->
+    <dimen name="icon_size">48dp</dimen>
+    <dimen name="icon_marginTop">16dp</dimen>
+
+    <!-- Track icon dimens -->
+    <dimen name="logo_track_size">32dp</dimen>
+
+    <!-- Playlist Image Height -->
+    <dimen name="playlist_image_height">200dp</dimen>
+
+    <!-- Genre card height -->
+    <dimen name="genre_card_height">200dp</dimen>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Wave</string>
+    <string name="playlists">Playlists</string>
+    <string name="tracks">Tracks</string>
+    <string name="genres">Genres</string>
+    <string name="songs">&#160;Song(s)</string>
+    <!-- Playlist names -->
+    <string name="epic_rock">Epic Rock</string>
+    <string name="chill_mix">Chill Mix</string>
+    <string name="workout_mix">Workout Mix</string>
+    <!-- Genres names -->
+    <string name="rock">Rock</string>
+    <string name="chill_step">Chill Step</string>
+    <string name="pop">Pop</string>
+    <!-- Song names -->
+    <string name="andreas_b">Andreas B. - Floating</string>
+    <string name="cma">CMA - Tommorows Another Day</string>
+    <string name="jacoo">Jacoo - Cosmos</string>
+    <string name="extreme_music_finest">Extreme Music - Finest Hour</string>
+    <string name="extreme_music_devil">Extreme Music - The Devil Always Gets Her Way</string>
+    <string name="lion_downfall">Lion - Downfall</string>
+    <string name="dead_posey_devil">Dead Posey - Don\'t stop the devil</string>
+    <string name="model_music_eyes">Model Music - These Eyes</string>
+    <string name="we_are_the_empty_runaway">We Are The Empty - Runaway</string>
+    <string name="adele_someone">Adele - Someone Like You</string>
+</resources>

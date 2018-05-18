@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlaylistPlayActivity"
+    android:background="@color/colorPrimaryDark"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playlist_image_height"
+        android:src="@drawable/chill_mix"
+        android:layout_gravity="center"
+        android:id="@+id/playlist_image"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_padding"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextPrimary"
+        android:fontFamily="@font/roboto_bold"
+        android:textAllCaps="true"
+        tools:hint="Playlist name"
+        android:id="@+id/playlist_name"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/playlist_tracks"
+        android:divider="@color/colorDivider"
+        >
+
+    </ListView>
+</LinearLayout>
